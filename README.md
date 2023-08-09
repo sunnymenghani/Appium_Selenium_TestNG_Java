@@ -1,6 +1,5 @@
 # Appium Mobile Automation using Selenium,TestNG
-Appium Java project using Selenium and TestNG to automate mobile app testing.
-This repository contains the source code for Appium automation using Selenium and TestNG with Java using POM.
+This repository contains the source code for Appium automation using Selenium and TestNG with Java using POM. The project aims to automate the login page and reset password scenario of a mobile app. To avoid security issues, captcha automation is not included in the project.
 
 Appium is an open-source automation framework for testing mobile apps. It allows you to automate native, hybrid, and web apps on iOS and Android devices.
 
