@@ -1,4 +1,4 @@
-# Appium_Selenium_TestNG_Java
+# Appium Mobile Automation using Selenium,TestNG
 Appium Java project using Selenium and TestNG to automate mobile app testing.
 This repository contains the source code for Appium automation using Selenium and TestNG with Java using POM.
 
