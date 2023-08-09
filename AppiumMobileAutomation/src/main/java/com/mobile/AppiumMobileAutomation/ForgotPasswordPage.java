@@ -40,34 +40,52 @@ public class ForgotPasswordPage {
         PageFactory.initElements(driver, this);
     }
     
+    /*
+     * This method will return element for resetPasswordScreen
+     */
     public MobileElement resetPasswordScreen() {
     	return enterEmailToRecoverPassword;
     }
     
+    /*
+     * This method will allow to enter email id to get reset password
+     */
     public MobileElement enterEmailToResetPassword(String email) {
     	wait.until(ExpectedConditions.visibilityOf(enterEmailToRecoverPassword));
     	enterEmailToRecoverPassword.sendKeys(email);
     	return enterEmailToRecoverPassword;
     }
     
+    /*
+     * This method will allow to enter the OTP before creating new password
+     */
     public MobileElement enterOtpToResetPassword(String otp) {
     	wait.until(ExpectedConditions.visibilityOf(enterOTP));
     	enterOTP.sendKeys(otp);
     	return enterOTP;
     }
     
+    /*
+     * This method will allow to submit once enter OTP to create new password
+     */
     public MobileElement submitOtpButton() {
     	wait.until(ExpectedConditions.visibilityOf(submitOTP));
     	submitOTP.click();
     	return submitOTP;
     }
 
+    /*
+     * This method will allow to enter the new password for creating new password
+     */
     public MobileElement enterNewPassword(String newPassword) {
     	wait.until(ExpectedConditions.visibilityOf(enterNewPasswordElement));
     	enterNewPasswordElement.sendKeys(newPassword);
     	return enterNewPasswordElement;
     }
     
+    /*
+     * This method will submit the new password
+     */
     public MobileElement submitNewPasswordButton() {
     	wait.until(ExpectedConditions.visibilityOf(setNewPasswordElement));
     	setNewPasswordElement.click();
