@@ -22,8 +22,8 @@ public class LoginAndResetPasswordTest {
 		private String enterNewPasswordString = "NewPassCode@1234";
 		  
 		private AppiumDriver<MobileElement> driver;
-	    private LoginPage loginPage;
-	    private ForgotPasswordPage forgotPasswordPage;
+	    	private LoginPage loginPage;
+	    	private ForgotPasswordPage forgotPasswordPage;
 
 	    @BeforeClass
 	    public void setUp() throws Exception {
